@@ -1,0 +1,21 @@
+trigger:
+  branches:
+    include:
+      - '*'
+    exclude:
+      - main
+      - master
+pr:
+  - '*'
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: bcochofel/azuredevops-pipeline-templates
+      endpoint: GitHubConnection
+
+stages:
+  - stage: precommit
+    jobs:
+      - template: azure-pipelines/tools/pre-commit.yml@templates
