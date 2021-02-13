@@ -1,10 +1,4 @@
-trigger:
-  branches:
-    include:
-      - '*'
-    exclude:
-      - main
-      - master
+trigger: none
 pr:
   - '*'
 
