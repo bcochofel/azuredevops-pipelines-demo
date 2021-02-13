@@ -1,0 +1,11 @@
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: bcochofel/azuredevops-pipeline-templates
+      endpoint: GitHubConnection
+
+stages:
+  - stage: Release
+    jobs:
+      - template: azure-pipelines/semver-annotated-tag.yml@templates
