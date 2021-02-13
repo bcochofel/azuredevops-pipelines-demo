@@ -1,3 +1,10 @@
+name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
+
+trigger:
+  - '*'
+pr:
+  - '*'
+
 resources:
   repositories:
     - repository: templates
