@@ -6,12 +6,7 @@ trigger:
       - main
       - master
 pr:
-  branches:
-    include:
-      - '*'
-    exclude:
-      - main
-      - master
+  - '*'
 
 resources:
   repositories:
