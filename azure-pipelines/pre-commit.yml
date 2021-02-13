@@ -5,6 +5,13 @@ trigger:
     exclude:
       - main
       - master
+pr:
+  branches:
+    include:
+      - '*'
+    exclude:
+      - main
+      - master
 
 resources:
   repositories:
