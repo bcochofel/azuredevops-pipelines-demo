@@ -2,6 +2,18 @@
 ## [Unreleased]
 
 
+<a name="0.3.1-test-changelog.9"></a>
+## [0.3.1-test-changelog.9] - 2021-02-14
+
+<a name="0.3.1-test-changelog.8"></a>
+## [0.3.1-test-changelog.8] - 2021-02-14
+
+<a name="0.3.1-test-changelog.7"></a>
+## [0.3.1-test-changelog.7] - 2021-02-14
+
+<a name="0.3.1-test-changelog.6"></a>
+## [0.3.1-test-changelog.6] - 2021-02-14
+
 <a name="0.3.1-test-changelog.5"></a>
 ## [0.3.1-test-changelog.5] - 2021-02-14
 ### Chore
@@ -151,7 +163,11 @@
 - Merge pull request [#1](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/1) from bcochofel/changelog
 
 
-[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.5...HEAD
+[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.9...HEAD
+[0.3.1-test-changelog.9]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.8...0.3.1-test-changelog.9
+[0.3.1-test-changelog.8]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.7...0.3.1-test-changelog.8
+[0.3.1-test-changelog.7]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.6...0.3.1-test-changelog.7
+[0.3.1-test-changelog.6]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.5...0.3.1-test-changelog.6
 [0.3.1-test-changelog.5]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.4...0.3.1-test-changelog.5
 [0.3.1-test-changelog.4]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.3...0.3.1-test-changelog.4
 [0.3.1-test-changelog.3]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.2...0.3.1-test-changelog.3
