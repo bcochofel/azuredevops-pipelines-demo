@@ -2,6 +2,9 @@
 ## [Unreleased]
 
 
+<a name="0.3.4"></a>
+## [0.3.4] - 2021-02-14
+
 <a name="0.3.3"></a>
 ## [0.3.3] - 2021-02-14
 
@@ -187,7 +190,8 @@
 - Merge pull request [#1](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/1) from bcochofel/changelog
 
 
-[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.3...HEAD
+[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.4...HEAD
+[0.3.4]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.3...0.3.4
 [0.3.3]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.2...0.3.3
 [0.3.2]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.10...0.3.1
