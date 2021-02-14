@@ -1,5 +1,15 @@
 name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
 
+parameters:
+  - name: debug
+    type: boolean
+    default: true
+
+  - name: pool
+    type: object
+    default:
+      vmImage: ubuntu-18.04
+
 trigger:
   - '*'
 pr:
@@ -16,3 +26,6 @@ stages:
   - stage: Release
     jobs:
       - template: azure-pipelines/semver-annotated-tag.yml@templates
+        parameters:
+          pool: ${{ parameters.pool }}
+          debug: ${{ parameters.debug }}

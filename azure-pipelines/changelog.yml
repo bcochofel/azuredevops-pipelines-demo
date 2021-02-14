@@ -22,7 +22,7 @@ resources:
 stages:
   - stage: precommit
     jobs:
-      - template: azure-pipelines/pre-commit.yml@templates
+      - template: azure-pipelines/changelog.yml@templates
         parameters:
           pool: ${{ parameters.pool }}
           debug: ${{ parameters.debug }}
