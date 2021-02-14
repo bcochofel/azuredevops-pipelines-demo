@@ -11,8 +11,13 @@ parameters:
       vmImage: ubuntu-18.04
 
 trigger:
-  - main
-  - master
+  branches:
+    include:
+      - main
+      - master
+  paths:
+    exclude:
+      - CHANGELOG.md
 pr: none
 
 resources:
