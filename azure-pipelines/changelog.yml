@@ -1,5 +1,3 @@
-name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
-
 parameters:
   - name: debug
     type: boolean
@@ -10,8 +8,7 @@ parameters:
     default:
       vmImage: ubuntu-18.04
 
-trigger:
-  - '*'
+trigger: none
 pr:
   - '*'
 
@@ -23,9 +20,9 @@ resources:
       endpoint: GitHubConnection
 
 stages:
-  - stage: Release
+  - stage: precommit
     jobs:
-      - template: azure-pipelines/semver-annotated-tag.yml@templates
+      - template: azure-pipelines/changelog.yml@templates
         parameters:
           pool: ${{ parameters.pool }}
           debug: ${{ parameters.debug }}
