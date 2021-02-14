@@ -9,7 +9,8 @@ parameters:
       vmImage: ubuntu-18.04
 
 trigger: none
-pr: none
+pr:
+  - '*'
 
 resources:
   repositories:
