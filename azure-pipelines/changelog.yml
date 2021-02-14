@@ -8,9 +8,7 @@ parameters:
     default:
       vmImage: ubuntu-18.04
 
-trigger:
-  - main
-  - master
+trigger: none
 pr: none
 
 resources:
