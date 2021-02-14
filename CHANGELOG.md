@@ -2,6 +2,21 @@
 ## [Unreleased]
 
 
+<a name="0.3.11"></a>
+## [0.3.11] - 2021-02-14
+### Fix
+- changelog infinite trigger
+
+### Pull Requests
+- Merge pull request [#10](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/10) from bcochofel/fix_infinite_trigger
+
+
+<a name="0.3.10"></a>
+## [0.3.10] - 2021-02-14
+
+<a name="0.3.9"></a>
+## [0.3.9] - 2021-02-14
+
 <a name="0.3.8"></a>
 ## [0.3.8] - 2021-02-14
 
@@ -202,7 +217,10 @@
 - Merge pull request [#1](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/1) from bcochofel/changelog
 
 
-[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.8...HEAD
+[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.11...HEAD
+[0.3.11]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.10...0.3.11
+[0.3.10]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.9...0.3.10
+[0.3.9]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.8...0.3.9
 [0.3.8]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.7...0.3.8
 [0.3.7]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.6...0.3.7
 [0.3.6]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.5...0.3.6
