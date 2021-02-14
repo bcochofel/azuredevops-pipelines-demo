@@ -3,7 +3,7 @@ name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
 parameters:
   - name: debug
     type: boolean
-    default: true
+    default: false
 
   - name: pool
     type: object
