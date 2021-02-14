@@ -1,8 +1,14 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="0.3.2"></a>
+## [0.3.2] - 2021-02-14
 ### Fix
 - changelog pipeline trigger for main
+
+### Pull Requests
+- Merge pull request [#9](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/9) from bcochofel/fix_changelog
 
 
 <a name="0.3.1"></a>
@@ -178,7 +184,8 @@
 - Merge pull request [#1](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/1) from bcochofel/changelog
 
 
-[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1...HEAD
+[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.2...HEAD
+[0.3.2]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.10...0.3.1
 [0.3.1-test-changelog.10]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.9...0.3.1-test-changelog.10
 [0.3.1-test-changelog.9]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.1-test-changelog.8...0.3.1-test-changelog.9
