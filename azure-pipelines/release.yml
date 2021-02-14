@@ -11,9 +11,9 @@ parameters:
       vmImage: ubuntu-18.04
 
 trigger:
-  - '*'
-pr:
-  - '*'
+  - main
+  - master
+pr: none
 
 resources:
   repositories:

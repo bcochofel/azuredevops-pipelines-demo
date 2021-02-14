@@ -8,12 +8,9 @@ parameters:
     default:
       vmImage: ubuntu-18.04
 
-trigger:
-  branches:
-    exclude:
-    - main
-    - master
-pr: none
+trigger: none
+pr:
+  - '*'
 
 resources:
   repositories:
