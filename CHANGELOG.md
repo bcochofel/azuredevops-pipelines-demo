@@ -1,8 +1,17 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Feat
+- skip ci for changelog and release pipelines
+
+
+<a name="0.3.15"></a>
+## [0.3.15] - 2021-02-14
 ### Fix
 - release pipeline trigger
+
+### Pull Requests
+- Merge pull request [#13](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/13) from bcochofel/trigger_release
 
 
 <a name="0.3.14"></a>
@@ -236,7 +245,8 @@
 - Merge pull request [#1](https://github.com/bcochofel/azuredevops-pipelines-demo/issues/1) from bcochofel/changelog
 
 
-[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.14...HEAD
+[Unreleased]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.15...HEAD
+[0.3.15]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.14...0.3.15
 [0.3.14]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.13...0.3.14
 [0.3.13]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.12...0.3.13
 [0.3.12]: https://github.com/bcochofel/azuredevops-pipelines-demo/compare/0.3.11...0.3.12
