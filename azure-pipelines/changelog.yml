@@ -13,9 +13,6 @@ trigger:
     include:
       - main
       - master
-  paths:
-    exclude:
-      - CHANGELOG.md
 pr: none
 
 resources:
